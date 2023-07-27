@@ -6,7 +6,7 @@ import time
 # pyautogui.press -> apertar 1 tecla
 # pyautogui.click -> clicar em algum lugar da tela
 # pyautogui.hotkey -> combinação de teclas
-pyautogui.PAUSE = 2
+pyautogui.PAUSE = 3
 
 # abrir ubuntu
 pyautogui.press("win")
@@ -17,7 +17,7 @@ pyautogui.press("enter")
 pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
-time.sleep(.5)
+time.sleep(1)
 
 # Abrir whatsapp
 pyautogui.click(x=47, y=88) # clicar no ícone
