@@ -1,6 +1,7 @@
 
 import pyautogui
 import time
+time.sleep(300)
 
 # pyautogui.write -> escrever um texto
 # pyautogui.press -> apertar 1 tecla
