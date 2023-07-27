@@ -1,13 +1,12 @@
 
 import pyautogui
 import time
-time.sleep(300)
 
 # pyautogui.write -> escrever um texto
 # pyautogui.press -> apertar 1 tecla
 # pyautogui.click -> clicar em algum lugar da tela
 # pyautogui.hotkey -> combinação de teclas
-pyautogui.PAUSE = 2
+pyautogui.PAUSE = 300
 
 # abrir ubuntu
 pyautogui.press("win")
